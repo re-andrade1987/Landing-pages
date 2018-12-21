@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../img/macro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 96vh;
+    margin-top: 0px;
+    background-attachment: fixed;
+    color: white;
+    
+}
+@media (max-width: 480px) {
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    margin-top: -93px;
+
+}
+.brand img{
+    display: flex;
+    justify-content: flex-start;
+    width: 92px;
+    margin-top: -77px;
+    margin-left: 10px;
+}
+.lista {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: -11px;
+    position: fixed;
+    margin-left: 105px;
+ 
+}
+
+.lista ul li a{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    color: white; 
+    margin-right: 10px;
+}
+
+.text h2{
+    text-align: center;
+    font-size: 17px;
+    margin-top: 100px;
+}
+.text{
+    text-align: center;
+    margin-top: 196px
+}
+.text img{
+    width: 64px;
+    height: 64px;
+}
+.btn{
+    background: white;
+    border-radius: 50%;
+    width: 57px;
+    height: 53px;
+    position: fixed;
+    right: 11px;
+    margin-top: -77px;
+    display: block;
+}
+span.hamburguer{
+    display: block;
+    background-color: black;
+    width: 36px;
+    height: 2px;
+    margin-top: 6px;
+    margin-bottom: 3px;
+}
+footer{
+    background-color: black;
+    height: 62px;
+     
+}
+
+}
+@media (min-width: 1020px){
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    margin-top: -187px;
+}
+.brand img{
+    display: flex;
+    justify-content: flex-start;
+    width: 145px;
+   
+   
+}
+.btn{
+    display: none  
+}
+.text{
+    text-align: center;
+    margin-top: 196px
+}
+.lista {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 334px;
+}
+.lista ul li a{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    color: white; 
+    padding: 10px;
+}
+
+}
