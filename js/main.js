@@ -7,6 +7,9 @@ $('.btn').on('click', function(e) {
     $(this).on('click', function() {
       $('#lista').slideToggle('slow');
     });
+    
+
+    
 });
 
 // document.getElementsByClassName("btn").style.backgroundColor = "red";

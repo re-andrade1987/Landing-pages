@@ -85,38 +85,40 @@ footer{
 }
 @media (min-width: 1020px){
 #navbar{
-    display: flex;
-    justify-content: space-between;
     position: fixed;
     margin-top: -187px;
 }
 .brand img{
     display: flex;
     justify-content: flex-start;
-    width: 145px;
-   
-   
+    width: 145px; 
 }
 .btn{
     display: none  
 }
+
 .text{
     text-align: center;
     margin-top: 196px
 }
-.lista {
+.lista2 {
     text-decoration: none;
+    list-style: none; 
+}
+.lista2 ul{
     list-style: none;
     display: flex;
-    justify-content: space-between;
-    margin-left: 334px;
+   
 }
-.lista ul li a{
-    list-style: none;
+.lista2 ul li a{
     text-decoration: none;
     display: flex;
     color: white; 
-    padding: 10px;
+    justify-content: flex-end;
+    margin-left: 200px;
+}
+.lista{
+    display: none;
 }
 
 }
